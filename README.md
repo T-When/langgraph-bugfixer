@@ -109,26 +109,3 @@ The console output is rendered using **Rich** panels:
 4. **Final Summary Scorecard**: Outcome table and clean working code.
 
 ---
-
-## 📦 Pushing to Git
-
-To push this project to your GitHub:
-
-```bash
-# 1. Initialize git repository
-git init
-
-# 2. Add all files (the provided .gitignore safely excludes .env and .venv)
-git add .
-
-# 3. Commit
-git commit -m "feat: Initial commit of LangGraph BugFixer agent"
-
-# 4. Link to your GitHub repo (replace with your repo URL)
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/langgraph-bugfixer.git
-
-# 5. Push
-git push -u origin main
-```
-
