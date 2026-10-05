@@ -1,0 +1,24 @@
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Testing & Logs
+.pytest_cache/
+*.log
+
+# Sensitive environment variables
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
